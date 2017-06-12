@@ -1,0 +1,34 @@
+//@import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
+@import "bootstrap.min.css";
+@import "https://bootswatch.com/paper/bootstrap.min.css";
+
+
+.component-navigation {
+  border-bottom: solid 1px #eee;
+  margin-bottom: 16px;
+
+  .nav-pills > li > a {
+    border-radius: 0;
+  }
+}
+
+.component-showtime {
+  .showtime__title {
+    margin: 0;
+  }
+
+  .showtime__time {
+    position: absolute;
+    bottom: 0;
+  }
+
+  @media (max-width:767px) {
+    .showtime__title {
+      margin: 16px 0;
+    }
+
+    .showtime__time {
+      position: relative;
+    }
+  }
+}

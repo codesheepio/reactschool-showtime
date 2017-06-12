@@ -1,0 +1,12 @@
+.component-movies {
+  .component-showtime + .component-showtime {
+    margin-top: 16px;
+  }
+
+  @media (max-width:767px) {
+    .component-showtime + .component-showtime {
+      border-top: solid 1px #eee;
+      padding-top: 16px;
+    }
+  }
+}

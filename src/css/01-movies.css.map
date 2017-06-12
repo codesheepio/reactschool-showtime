@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,2DAA0C;EACxC,UAAU,EAAE,IAAI;AAGlB,yBAAyB;EACvB,2DAA0C;IACxC,UAAU,EAAE,cAAc;IAC1B,WAAW,EAAE,IAAI",
+"sources": ["01-movies.scss"],
+"names": [],
+"file": "01-movies.css"
+}

@@ -1,0 +1,20 @@
+@import url(bootstrap.min.css);
+@import "https://bootswatch.com/paper/bootstrap.min.css";
+.component-navigation {
+  border-bottom: solid 1px #eee;
+  margin-bottom: 16px; }
+  .component-navigation .nav-pills > li > a {
+    border-radius: 0; }
+
+.component-showtime .showtime__title {
+  margin: 0; }
+.component-showtime .showtime__time {
+  position: absolute;
+  bottom: 0; }
+@media (max-width: 767px) {
+  .component-showtime .showtime__title {
+    margin: 16px 0; }
+  .component-showtime .showtime__time {
+    position: relative; } }
+
+/*# sourceMappingURL=00-common.css.map */
