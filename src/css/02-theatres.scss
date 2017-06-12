@@ -1,0 +1,32 @@
+.component-theatres {
+
+  .component-theatre {
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      text-align: right;
+    }
+
+    .component-showtime + .component-showtime {
+      margin-top: 8px;
+    }
+  }
+
+  .component-theatre + .component-theatre {
+    margin-top: 16px;
+  }
+
+  @media (max-width:767px) {
+    .component-theatre {
+      h2 {
+        text-align: left;
+        margin-bottom: 8px;
+      }
+    }
+
+    .component-theatre + .component-theatre {
+      border-top: solid 1px #eee;
+      padding-top: 16px;
+    }
+  }
+}
