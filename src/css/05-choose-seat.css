@@ -1,0 +1,40 @@
+.component-choose-seat .component-theatre .theatre__screen {
+  margin-bottom: 32px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #ccc; }
+.component-choose-seat .component-theatre .label--row {
+  position: absolute;
+  left: 4px; }
+.component-choose-seat .component-theatre .theatre__seats__row {
+  position: relative;
+  margin-bottom: 8px;
+  text-align: center; }
+  .component-choose-seat .component-theatre .theatre__seats__row .btn-seat {
+    width: 10%;
+    margin: 0;
+    padding: 0 0 9%;
+    border: 0; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat:nth-child(n + 2) {
+      margin-left: 1%; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat:nth-child(5) {
+      margin-left: 7%; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat.btn-seat--vacant {
+      background-color: #0a0; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat.btn-seat--occupied {
+      background-color: #f00; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat.btn-seat--selected {
+      background-color: #f93; }
+    .component-choose-seat .component-theatre .theatre__seats__row .btn-seat.btn-seat--label {
+      margin-top: -16px;
+      padding: 0;
+      pointer-events: none; }
+.component-choose-seat .component-booking-summary .row--booking {
+  font-size: 20px; }
+.component-choose-seat .component-booking-confirmation {
+  margin-top: 32px; }
+.component-choose-seat .component-booking-result {
+  margin-top: 32px; }
+
+/*# sourceMappingURL=05-choose-seat.css.map */

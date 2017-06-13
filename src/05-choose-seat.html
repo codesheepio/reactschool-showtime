@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./css/00-common.css" rel="stylesheet" />
+  <link href="./css/05-choose-seat.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="component-navigation">
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><a href="./01-movies.html">Movies</a></li>
+        <li><a href="./02-theatres.html">Theatres</a></li>
+        <li><a href="./03-about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="component-choose-seat">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="component-showtime">
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="http://via.placeholder.com/800x600" class="img-responsive img-thumbnail" />
+              </div>
+              <div class="col-sm-9">
+                <h3 class="showtime__title">{ Title }</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 text-right">
+          <span class="lead">Theatre # - { TIME }</span>
+        </div>
+      </div>
+      <hr/>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="component-theatre">
+            <div class="theatre__screen">screen</div>
+            <div class="theatre__seats">
+              <div class="label--row">A</div>
+              <div class="theatre__seats__row">
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+              </div>
+              <div class="label--row">B</div>
+              <div class="theatre__seats__row">
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+              </div>
+              <div class="label--row">C</div>
+              <div class="theatre__seats__row">
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+              </div>
+              <div class="label--row">D</div>
+              <div class="theatre__seats__row">
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--occupied" disabled="disabled"></button>
+                <button class="btn btn-seat btn-seat--occupied" disabled="disabled"></button>
+                <button class="btn btn-seat btn-seat--selected"></button>
+                <button class="btn btn-seat btn-seat--selected"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+                <button class="btn btn-seat btn-seat--vacant"></button>
+              </div>
+              <div class="theatre__seats__row">
+                <div class="btn btn-seat btn-link btn-seat--label">1</div>
+                <div class="btn btn-seat btn-link btn-seat--label">2</div>
+                <div class="btn btn-seat btn-link btn-seat--label">3</div>
+                <div class="btn btn-seat btn-link btn-seat--label">4</div>
+                <div class="btn btn-seat btn-link btn-seat--label">5</div>
+                <div class="btn btn-seat btn-link btn-seat--label">6</div>
+                <div class="btn btn-seat btn-link btn-seat--label">7</div>
+                <div class="btn btn-seat btn-link btn-seat--label">8</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="component-booking-summary">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                Seats
+              </div>
+              <div class="panel-body">
+                <div class="row row--booking">
+                  <div class="col-xs-8">D5</div>
+                  <div class="col-xs-4 text-right">200</div>
+                </div>
+                <div class="row row--booking">
+                  <div class="col-xs-8">D6</div>
+                  <div class="col-xs-4 text-right">200</div>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <div class="row row--booking">
+                  <div class="col-xs-8">Total</div>
+                  <div class="col-xs-4 text-right">400</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="component-booking-confirmation">
+            <h4>Confirm Booking</h4>
+            <div class="form-group">
+              <label>Email</label>
+              <input class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+
+          <div class="component-booking-result">
+            <h4 class="text-success">Your booking has been confirmed</h4>
+          </div>
+
+          <div class="component-booking-result">
+            <h4 class="text-danger">Your booking was failed</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
