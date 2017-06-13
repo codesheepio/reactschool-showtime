@@ -11,6 +11,8 @@
 .component-showtime .showtime__time {
   position: absolute;
   bottom: 0; }
+.component-showtime .showtime__description {
+  margin-top: 16px; }
 @media (max-width: 767px) {
   .component-showtime .showtime__title {
     margin: 16px 0; }

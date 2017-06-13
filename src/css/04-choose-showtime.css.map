@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,6CAAmB;EACjB,UAAU,EAAE,IAAI",
+"sources": ["04-choose-showtime.scss"],
+"names": [],
+"file": "04-choose-showtime.css"
+}
